@@ -1,5 +1,5 @@
 # getforkedgopkg
-getforkedgopkg gets a forked Go package, set up upstream and create a symbolic link.
+getforkedgopkg will get a forked Go package, set up upstream and create a symbolic link.
 
 \# go run sample.go -githubUsername junhsieh
 
