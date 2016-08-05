@@ -17,8 +17,8 @@ import (
 func main() {
 	flag.Parse()
 
-	repoArr := []getgopkg.Repo{
-		getgopkg.Repo{
+	repoArr := []getforkedgopkg.Repo{
+		getforkedgopkg.Repo{
 			UpstreamUsername: "go-sql-driver",
 			Name:             "mysql",
 		},

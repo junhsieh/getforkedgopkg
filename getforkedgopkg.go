@@ -1,9 +1,9 @@
-package getgopkg
+package getforkedgopkg
 
 import (
 	"errors"
 	"flag"
-	"log"
+	"fmt"
 	"os"
 )
 
@@ -85,13 +85,13 @@ func (r *Repo) Run() error {
 	}
 
 	// clone
-	log.Printf("%v", r.GetCMDClone())
+	fmt.Printf("%v\n", r.GetCMDClone())
 
 	// add remote
-	log.Printf("%v", r.GetCMDRemoteAdd())
+	fmt.Printf("%v\n", r.GetCMDRemoteAdd())
 
 	// add symbolic link
-	log.Printf("%v", r.GetCMDLink())
+	fmt.Printf("%v\n", r.GetCMDLink())
 
 	return nil
 }
